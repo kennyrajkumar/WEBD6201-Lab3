@@ -388,7 +388,7 @@
           sessionStorage.clear();
 
           // redirect back to login
-          location.href = "./login";
+          location.href = "/login";
         });
 
         // make it look like each nav item is an active link
@@ -401,6 +401,9 @@
         <a id="contact-list" class="nav-link" aria-current="page"><i class="fas fa-users fa-lg"></i> Contact List</a>
       </li>`).insertBefore("#loginListItem");
 
+        $(`<li class="nav-item">
+        <a id="task-list" class="nav-link" aria-current="page"><i class="fa-solid fa-list-check"></i> Task List</a>
+      </li>`).insertBefore("#loginListItem");
       }
       
       else
