@@ -280,7 +280,7 @@
           localStorage.setItem(key, contact.serialize());
 
           // return to the contact list
-          location.href = "/contact-list";
+          location.href = "./contact-list";
           
         });
 
@@ -317,7 +317,7 @@
             break;
           }
         }
-
+        
         // if username and password matches - success... then perform login
         if(success)
         {
@@ -388,7 +388,7 @@
           sessionStorage.clear();
 
           // redirect back to login
-          location.href = "./login";
+          location.href = "../Views/content/login";
         });
 
         // make it look like each nav item is an active link
@@ -402,7 +402,7 @@
       </li>`).insertBefore("#loginListItem");
 
         $(`<li class="nav-item">
-        <a id="contact-list" class="nav-link" aria-current="page"><i class="fa-solid fa-list-check"></i> Task List</a>
+        <a id="contact-list" class="nav-link" aria-current="page"><i class="fas fa-list-check fa-lg"></i> Task List</a>
       </li>`).insertBefore("#loginListItem");
       }
       
