@@ -280,7 +280,7 @@
           localStorage.setItem(key, contact.serialize());
 
           // return to the contact list
-          location.href = "./contact-list";
+          location.href = "/contact-list";
           
         });
 
@@ -328,7 +328,7 @@
           messageArea.removeAttr("class").hide();
 
           // redirect user to secure area - contact-list.html
-          location.href = "./contact-list";
+          location.href = "/contact-list";
         }
         else
         {
@@ -401,9 +401,6 @@
         <a id="contact-list" class="nav-link" aria-current="page"><i class="fas fa-users fa-lg"></i> Contact List</a>
       </li>`).insertBefore("#loginListItem");
 
-        $(`<li class="nav-item">
-        <a id="task-list" class="nav-link" aria-current="page"><i class="fas fa-list-check fa-lg"></i> Task List</a>
-      </li>`).insertBefore("#loginListItem");
       }
       
       else
