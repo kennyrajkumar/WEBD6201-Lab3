@@ -488,6 +488,9 @@
      */
     function DisplayTaskList()
     {
+        // don't allow visitors to go here
+        authGuard();
+
         let messageArea = $("#messageArea");
         messageArea.hide();
         let taskInput = $("#taskTextInput");
