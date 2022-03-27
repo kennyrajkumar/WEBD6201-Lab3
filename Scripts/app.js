@@ -402,7 +402,7 @@
       </li>`).insertBefore("#loginListItem");
 
         $(`<li class="nav-item">
-        <a id="contact-list" class="nav-link" aria-current="page"><i class="fas fa-list-check fa-lg"></i> Task List</a>
+        <a id="task-list" class="nav-link" aria-current="page"><i class="fas fa-list-check fa-lg"></i> Task List</a>
       </li>`).insertBefore("#loginListItem");
       }
       
