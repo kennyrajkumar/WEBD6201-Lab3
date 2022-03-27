@@ -458,7 +458,6 @@
       let messageArea = $("#messageArea");
       messageArea.hide();
       let taskInput = $("#taskTextInput");
-      window.alert(taskInput.value);
 
       if (taskInput.val() != "" && taskInput.val().charAt(0) != " ") 
       {
