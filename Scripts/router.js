@@ -92,12 +92,12 @@ router.AddTable(["/",
                  "/about", 
                  "/services", 
                  "/contact", 
-                 "/contact-list", 
+                 "/contact-list",
+                 "/task-list", 
                  "/projects", 
                  "/register", 
                  "/login", 
-                 "/edit",
-                 "/task-list"]);
+                 "/edit"]);
                 
 let route = location.pathname; // alias for location.pathname
 
