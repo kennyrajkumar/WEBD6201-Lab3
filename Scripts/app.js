@@ -388,7 +388,7 @@
           sessionStorage.clear();
 
           // redirect back to login
-          location.href = "/login";
+          location.href = "./login";
         });
 
         // make it look like each nav item is an active link
