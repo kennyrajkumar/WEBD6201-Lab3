@@ -388,7 +388,7 @@
           sessionStorage.clear();
 
           // redirect back to login
-          location.href = "../Views/content/login";
+          location.href = "/login";
         });
 
         // make it look like each nav item is an active link
@@ -420,7 +420,7 @@
       if(!sessionStorage.getItem("user"))
       {
       // redirect back to login page
-      location.href = "./login";
+      location.href = "/login";
       }
     }
 
