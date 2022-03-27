@@ -556,5 +556,6 @@
     window.addEventListener("load", Start);
 
     core.Start = Start;
+    core.reset = Start;
 
 })(core || (core={}));
