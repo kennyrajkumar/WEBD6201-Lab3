@@ -1,5 +1,3 @@
-
-
 /* *
  *
  * File: app.js
@@ -437,7 +435,7 @@
     {
 
     }
-
+    // Switch case statement that calls different pages when selected via activeLink (app.js)
     function ActiveLinkCallBack(activeLink)
     {
       switch (activeLink) 
