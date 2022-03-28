@@ -1,4 +1,13 @@
-/* custom JavaScript goes here */
+
+
+/* *
+ *
+ * File: app.js
+ * Authors: Kenny Rajkumar & Andrei Sorescu
+ * Date: March 27th, 2022
+ * Student ID: 100616412, 100706779
+ * 
+ * */
 
 //IIFE - Immediately Invoked Function Expression
 //AKA - Anonymous Self-Executing Function
